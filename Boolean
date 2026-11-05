@@ -1,0 +1,58 @@
+# Java Basics & Fundamentals - Detailed Study Notes & Code Log - (5-11-26)
+
+## What this covers
+This comprehensive log documents fundamental Java programming concepts focusing on implicit and explicit typecasting, ASCII character mappings, operator precedence rules (BODMAS), prefix and postfix increment/decrement behaviors, relational operators, and boolean data types.
+
+---
+
+## Key Concepts
+
+* **Typecasting Fundamentals:** 
+  * *Implicit Typecasting:* Automatic conversion performed by the Java compiler when a smaller primitive data type is assigned to a larger data type (e.g., storing a `char` into an `int` to retrieve its underlying ASCII code).
+  * *Explicit Typecasting:* Manual conversion required when forcing a larger data type into a smaller container, accomplished by placing the target type in parentheses before the expression (e.g., `(int)variable`).
+* **ASCII Values & Character Limits:** 
+  * Characters are represented numerically under specific encoding schemes where each character corresponds to a unique integer value (e.g., `a` = 97, `A` = 65, `0` = 48).
+  * Characters enclosed in single quotes represent literal character data or their numeric ASCII equivalents.
+* **Operator Precedence (BODMAS):** 
+  * Mathematical expressions follow standard precedence rules where division `/`, multiplication `*`, and modulus `%` take priority over addition `+` and subtraction `-`.
+  * When operators share the same precedence level, evaluation proceeds from left to right.
+* **Increment & Decrement Mechanics (`++`, `--`):** 
+  * *Prefix Operator (`++x`):* Increments the variable's value first, then uses the updated value in the surrounding expression.
+  * *Postfix Operator (`x++`):* Uses the current value of the variable first in the expression, then increments it afterward.
+* **Relational Operators & Booleans:** 
+  * Relational operators such as `<`, `>`, `<=`, `>=`, `==`, and `!=` are used to compare two numeric or character quantities.
+  * Boolean data types (`boolean`) store truth values (`true` or `false`) resulting from logical evaluations and relational comparisons.
+
+---
+
+## Commands & Code Examples
+
+```java
+// Example 1: Implicit Typecasting with Characters
+char ch = 'A';
+int x = ch; // Implicit conversion from char to int -> Output: 65
+System.out.println(x);
+
+// Example 2: Explicit Typecasting
+char pyyush = 'a';
+int y = (int) pyyush; // Explicitly casting data type from char to int -> Output: 97
+System.out.println(y);
+
+// Example 3: Arithmetic Evaluation & BODMAS Rule
+int calculation = 2 * 4 + 6 / 3; 
+// Evaluates as: 8 + 2 = 10
+
+// Example 4: Prefix vs Postfix Increment Behavior
+int num1 = 10;
+System.out.println(++num1); // Prefix: Increments to 11 first, then prints 11
+
+int num2 = 10;
+System.out.println(num2++); // Postfix: Prints 10 first, then increments
+System.out.println(num2);   // Prints the updated value: 11
+
+// Example 5: Relational Operators and Boolean Data Types
+boolean x = (5 > 3);
+System.out.println(x); // Evaluates and outputs: true
+
+What I learned
+Today I learned the fundamentals of java programming, including implicit and explicit typecasting,ASCII values of characters, operator precedence(BODMAS),prefix and postfix increment decrement operators,relational operators,  and boolean data types.Each java instruction can be written in a same line .All java statements are entered in small case letters .Blank spaces may be inserted between 2 words in a java statement..For ASCII values a = 97, A = 65, 0 = 48 and for each char values increases for all .BODMAS rule is same for java like maths .double/int gives double ,int/int gives integer.For char datatype single quotation is used. 
