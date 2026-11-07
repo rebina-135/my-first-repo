@@ -1,0 +1,36 @@
+JAVA basic Fundamentals : (7-11-2026)
+
+What this covers
+This covers the concept of if else ,if ,else and this concept focuses on how to determine whether the no. given is integer or not, whether the no 
+is odd or even, whether the no is divisible by 2, whether the number is divisible by 5, whether the real number value is an absolute integer,
+whether the number ie selling price and cost price which is profit ,loss or no profit or no loss.
+
+Key Concepts
+1. We used whether the given integer is an odd or even.
+2. We used whether the given integer is divisible by 2.
+3.We used whether the number is divisible by 5.
+4.We used whethert the real number is an absolute integer.
+5.We used whether the SP-CP is profit or loss.
+
+
+Commands used
+here to find out the whether the integer is divisible by 2 we used n%2 == 0. this determines the integer.
+also for finding out odd number we used n%2 == 0 same method repeats.
+n>0, n%5 == 0 , we  used this methods to find out whether the number is divisible by 2.
+Scanner sc = new Scanner(System.in);
+int n = sc. nextInt();
+here the scanner method is usec so that any double or integer value can be applied to determine the required solution.
+int x = (int)n //  here typecasting is also used.
+if (SP - CP ) then it is profit.
+if(CP-SP) then it is loss.
+if(SP == CP) then it is no profit or no loss.
+here if , else and if method is also used.
+
+
+What i learned
+ Here I learned how to find out whether the number is odd or even,the no divisible by 2,the number is divisible by 5, and the selling price and 
+cost price method to determine whether it turns out profit or loss. Here the main command we used is if , else, else if for all this values to 
+determine the exact solution.So if else loop plays very important role for determining all this values also we used  tyecasting to the convert 
+the real value to absolute value.
+
+
