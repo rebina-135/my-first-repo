@@ -1,0 +1,47 @@
+This java fundamentals studies about nested if else and ternary operators (9-11-26)
+
+Key concepts:
+This concept focuses on how to use nested if else .
+When 3 integers are given , how to find out which one is the greatest.
+When 3 integers are given how to find out which one is the smallest.
+How to use ternary operators.
+When integers are given how to find out which one is odd or even.
+Take 3 positive integer and tell which one is odd or even.
+
+Commands used:
+if (a>b)
+{
+if (a>c) System.out.println(a);      // for largest
+else System.out.println(c);
+
+else {
+if(b>c) System.out.println(b);
+else System.out.println(c);
+
+if(a<b)
+{
+if(a<c) System.out.println(a);
+else System.out.println(c);       // for Smallest
+
+else{
+if(b<c) System.out.println(b);
+else System.out.println(c);
+
+Using ternary operators
+if(n%2 == 0) ? "Even" : "Odd";
+
+For 3 positive integers
+if(a>b) ? a:b;
+if(b>c) ? b:c;
+
+What I learned
+Today I learned only two topics ie of 43 minutes one is nested if else and how to apply in codes instead of normal if else and one is ternary operators . In ternary operators 
+we can write the code in single line without using if else again and again it is actually the short cut of if else. It is not always required to use nested if else for every 
+question sometimes we can apply this method also which is simple and easy and less time consuming.Hence there are many alternate methods for same question which we used in 
+day to day programming languages.
+
+
+
+
+
+
