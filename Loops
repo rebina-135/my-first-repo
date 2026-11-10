@@ -1,0 +1,32 @@
+This java fundamentals covers the topic of Loop - (10-11-2026)
+
+Key Concepts:
+In this concept we learned how to print values from 1 to 9
+How to print values of multiple of 17 
+How to print values of multiple of 18
+How to print values from 1 to 100 which is also divisible by 3
+How to print values from 1 to 100 which is also divisible by 2
+
+
+Commands used:
+for(int i = 1; i<=8; i++) // here it will print from 1 to 9; 
+for(int i = 7; i<= 12;  i ++);  here it will give output : 7 8 9 10 11 12
+for(int i = 1; i<=170; i= i + 17){  // here we print the multiple of 17
+System.out.println(i + " ");
+
+alternate method
+for(int i = 1; i<=170; i= i ++){
+if(i%17 == 0) System.out.println(i + " ");
+
+for(int i = 1; i<=180; i++){      //here we print the multiple of 18
+System.out.println(i + " ");
+
+for(int i = 1; i<=100; i= i + 1){
+if(i%3 == 0)System.out.println(i);   //for divisible of 3 to print 1 to 100
+if(i%2 == 0)System.out.println(i);  //for divisible of 2 to print 1 to 100
+}
+
+  What I learned:
+Today I learned about how to use loops and why loops is useful .Here loops helps me learned that we don't need to write for example we have to code 100 times of Nikita hates 
+Painting.So we can write  { for(int i = 1; i<=100; i++) } by using this command only we can print the line 100 times.Here many questions can be solved by using this single line 
+command for printing any text or any numbers multiple times.
