@@ -1,0 +1,47 @@
+This java fundamental  also covers the basic of loops - (11-11-26)
+
+Key concepts:
+Here we studied how to find out the sum of arithmetic progressions.
+We used alternate methods for arithmetic progressions here.
+How to find out the sum of geometric progressions.
+how to use ascii values.
+
+Commands used:
+for(int i = 2; i<= 3*n - 1; i += 3){  //if the no is given as 2,5,8 etc incase of arithmetric progression
+System.out.println(i);
+
+another method
+int a = 2 , d = 3;
+for(int i = 1; i<=n; i++){
+System.out.println(a +" ");
+a += d;
+
+for(int i = 4; i<= 3 * n - 1; i +=2){
+System.out.println(i);
+
+another method
+int a = 4, d=2;                     // 4,6,8 etc
+for(int i = 1; i<=n; i++){
+System.out.println(a + " ");
+a += d;
+
+int a= 2, r=2;
+for(int i = 1; i<= n; i++){             // 2,4,6,8 for geometric progression
+System.out.println(i);
+a *= r;
+
+for(int i = 65; i<=90; i++){
+System.out.println(i);             //for asci values it will print 65,66,67 upto 90
+
+for(int i = 65; i<=90; i++){
+System.out.println((char)i + "");        // using typecasting for writing also the alphabet A, B,,C ,D upto Z.
+
+
+What I learned:
+Today i learned how to apply the loops in finding arithmetric progressions, geometric progressions, ascii values.n determines how many times the loop will interates
+also n is also used in formula.
+
+
+
+
+
